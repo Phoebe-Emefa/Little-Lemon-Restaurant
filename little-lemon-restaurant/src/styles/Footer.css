@@ -1,0 +1,48 @@
+footer {
+  padding: 2rem;
+  margin-top: 2rem;
+  background-color: #edefee;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #495e57;
+    font-weight: bold;
+    font-size: 0.625rem;
+  }
+
+  a {
+    color: #495e57;
+    text-decoration: none;
+  }
+
+  .socials {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+  }
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  footer {
+    display: grid;
+    grid-template-columns: 20% 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #495e57;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+
+}
