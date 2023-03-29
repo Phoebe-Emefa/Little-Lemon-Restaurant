@@ -1,7 +1,8 @@
 import React from "react";
 import { BsInstagram, BsTwitter, BsFacebook } from "react-icons/bs";
-import logo from "../assets/little-lemon-logo.svg";
-import "../styles/Footer.css";
+import { Link } from "react-router-dom";
+import logo from "../../assets/little-lemon-logo.svg";
+import "../../styles/Footer.css";
 
 const Footer = () => {
   return (
@@ -11,15 +12,15 @@ const Footer = () => {
       </div>
       <div class="footer">
         <div className="bottom-nav">
-          <a href="#about">
+          <Link to="/about">
             <p>About</p>
-          </a>
-          <a href="#menu">
+          </Link>
+          <Link to="/menu">
             <p>Menu</p>
-          </a>
-          <a href="#menu">
+          </Link>
+          <Link to="/reservations">
             <p>Reservations</p>
-          </a>
+          </Link>
         </div>
         <div>
           <p>Chicago, Illinois</p>

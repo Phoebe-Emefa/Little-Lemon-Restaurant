@@ -1,15 +1,15 @@
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import RootLayout from "./router/Rootlayout";
 
 function App() {
   return (
     <>
-      <Header />
+    <RootLayout />
+      {/* <Header />
 
       <main style={{height: '100vh'}}>
 
       </main>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
